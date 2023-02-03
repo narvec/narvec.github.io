@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(197, 108, 108);
+}
+
+container {
+  width: 30%;
+  height: 50%;
+
+}
+
+button {
+  padding: 10px 200px;
+  background-color: #bbc8bb;
+  color: rgb(4, 1, 1);
+  border: none;
+  cursor: pointer;
+  box-shadow: 0px 5px 0px #404340;
+  transition: all 0.2s;
+  margin: auto;
+  margin-bottom: 20px;
+  border-radius: 20px;
+
+}
+button.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+  
+}
+
+button:active {
+    transform: translate(0px, 10px);
+    box-shadow: 0px 1px 0px #3E8E41;
+} 
+
+button:hover {
+  animation: pulse 1s;
+} 
+
+img#taro-image {
+    width: 30%;
+    display: block;
+    margin: 0 auto;
+  }
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+  }
+  .fadeIn {
+    animation-name: fadeIn;
+    animation-duration: 3s;
+  }
+  
+  img#taro-image.animate {
+    animation: fadeIn 2s ease-out forwards;
+  }
+  
+  
