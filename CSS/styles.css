@@ -8,7 +8,7 @@ h1 {
 }
 
 container {
-  width: 30%;
+  width: 25%;
   height: 50%;
 
 }
@@ -44,7 +44,7 @@ button:hover {
 } 
 
 img#taro-image {
-    width: 30%;
+    width: 25%;
     display: block;
     margin: 0 auto;
   }
