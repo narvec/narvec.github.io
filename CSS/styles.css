@@ -44,10 +44,16 @@ button:hover {
 } 
 
 img#taro-image {
-    width: 25%;
-    display: block;
-    margin: 0 auto;
-  }
+  width: 30%;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 767px) {
+img#play-image {
+  width: 60%;
+}
+}
 
 @keyframes fadeIn {
   from { opacity: 0; }
